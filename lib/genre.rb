@@ -17,7 +17,7 @@ class Genre
   end
 
   def artists
-    songs.each {|song|
+    songs.map {|song|
       song.artist
     }
   end
